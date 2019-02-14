@@ -1,0 +1,107 @@
+:root {
+	--jumbotron-padding-y: 3rem;
+}
+
+.tagline {
+	margin-top: 16px;
+	margin-top: 1rem;
+}
+
+.jumbotron {
+	padding-top: var(--jumbotron-padding-y);
+	padding-bottom: var(--jumbotron-padding-y);
+	margin-bottom: 0;
+	background-color: #fff;
+}
+@media (min-width: 768px) {
+	.jumbotron {
+		padding-top: calc(var(--jumbotron-padding-y) * 2);
+		padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+	}
+}
+
+.jumbotron p:last-child {
+	margin-bottom: 0;
+}
+
+.jumbotron-heading {
+	font-weight: 300;
+}
+
+.jumbotron .container {
+	max-width: 40rem;
+}
+
+footer {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+footer p {
+	margin-bottom: .25rem;
+}
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+header .text-muted {
+	color: #eee !important;
+}
+
+.card-title {
+	font-weight: normal;
+}
+
+.card-body {
+	color: #fff;
+}
+
+#card1 .card-body {
+	background-color: #326097;
+}
+
+#card2 .card-body {
+	background-color: #0278aa;
+}
+
+#card3 .card-body {
+	background-color: #654996;
+}
+
+#card4 .card-body {
+	background-color: #d4842a;
+}
+
+#card5 .card-body {
+	background-color: #0053a0;
+}
+
+.card-link {
+	border-bottom: 1px solid #fff;
+}
+
+.card-link, .card-link:hover {
+	color: #fff;
+}
+
+.card-link:hover {
+	border-bottom: none;
+	color: #eee;
+	text-decoration: none;
+}
+
+.data-viz-card .card-body {
+	background-color: #555;
+}
+
+#map .modal-content {
+	width: 1056px;
+}
+
+#pills-tab .nav-link.active {
+	background-color: #555;
+	color: #fff;
+}
+
+#pills-tab .nav-link {
+	color: #212529;
+}

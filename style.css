@@ -47,6 +47,11 @@ header .text-muted {
 	color: #eee !important;
 }
 
+.card {
+	width: 350px;
+	height: 420px;
+}
+
 .card-title {
 	font-weight: normal;
 }

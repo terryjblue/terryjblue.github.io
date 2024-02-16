@@ -80,6 +80,10 @@ header .text-muted {
 	background-color: #0053a0;
 }
 
+#card6 .card-body {
+	background-color: #000;
+}
+
 .card-link {
 	border-bottom: 1px solid #fff;
 }
